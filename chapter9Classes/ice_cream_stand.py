@@ -1,4 +1,4 @@
-#9.1 Python Crash Course
+#9.6 Python Crash Course
 class Restaurant():
     """Create a restaurant"""
 
@@ -25,10 +25,21 @@ class Restaurant():
         """Add the customers to the number of people served."""
         self.number_served += customers
 
-#restaurant = Restaurant('Chipotle', 'Mexican')
+class IceCreamStand(Restaurant):
+    """Create an ice cream stand."""
 
-#print("The restaurant's name is " + restaurant.restaurant_name.title())
-#print("The cusine type is " + restaurant.cuisine_type.title())
+    def __init__(self, restaurant_name, cuisine_type):
+        """
+        Initialize attributes of the parent class.
+        Then initialize attributes specific to an ice cream stand.
+        """
+        super().__init__(restaurant_name, cuisine_type)
+        self.flavors = ['vanilla','chocolate','strawberry']
 
-#restaurant.describe_restaurant()
-#restaurant.open_restaurant()
+    def display_flavors(self):
+        print("\nIce Cream Flavors served here: ")
+        for flavor in self.flavors:
+            print(flavor.title())
+
+iceCreamStand = IceCreamStand('Cold Stone Creamery', 'Ice Cream')
+iceCreamStand.display_flavors()

@@ -15,10 +15,10 @@ class User():
     def greet_user(self):
         print("Welcome, " + self.username.title())
 
-user1 = User('ben', 'kixmiller', 'gostate', 'Des Moines')
-user1.describe_user()
-user1.greet_user()
+#user1 = User('ben', 'kixmiller', 'gostate', 'Des Moines')
+#user1.describe_user()
+#user1.greet_user()
 
-user2 = User('jeremy', 'both', 'jeremyboth', 'Omaha')
-user2.describe_user()
-user2.greet_user()
+#user2 = User('jeremy', 'both', 'jeremyboth', 'Omaha')
+#user2.describe_user()
+#user2.greet_user()
