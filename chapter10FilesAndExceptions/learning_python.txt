@@ -1,0 +1,5 @@
+In Python you can use dictionaries like hash maps in java.
+In Python you can read data from files.
+In Python you can use inheritance like you can in java.
+In Python you can import modules in different ways.
+In Python you can read input from the console.
