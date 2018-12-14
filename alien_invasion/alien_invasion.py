@@ -5,7 +5,7 @@ from ship import Ship
 import game_functions as gf
 
 def run_game():
-    # Initialize pygame, settings, and screen object
+    # Initialize pygame, settings, and screen object. Test
     pygame.init()
     ai_settings = Settings()
     screen = pygame.display.set_mode((ai_settings.screen_width, ai_settings.screen_height))
