@@ -31,7 +31,7 @@ class Rocket():
         # Update the ship's center value, not the rect.
         if self.moving_right and self.rect.right < self.screen_rect.right:
             self.centerx += self.settings.rocket_speed_factor
-        if self.moving_left and self.rect.left > 0:
+        if self.moving_left and self.rect.left > self.screen_rect.left:
             self.centerx -= self.settings.rocket_speed_factor
         if self.moving_down and self.rect.bottom < self.screen_rect.bottom:
             self.centery += self.settings.rocket_speed_factor
