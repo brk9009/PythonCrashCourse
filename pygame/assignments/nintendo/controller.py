@@ -13,6 +13,7 @@ class Controller():
 
         # Draw the controller at the center of the screen
         self.rect.centerx = self.screen_rect.centerx
+        self.rect.centery = self.screen_rect.centery
 
     def blitme(self):
         """Draw the controller at its current location"""
