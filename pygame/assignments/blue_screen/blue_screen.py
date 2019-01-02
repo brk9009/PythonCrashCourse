@@ -2,15 +2,11 @@
 import sys
 import pygame
 
-from controller import Controller
-
 def blue_screen():
     """Creates a screen with a background color of blue"""
     pygame.init()
     screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption("Blue Screen")
-
-    
 
     while True:
         """Respond to keypresses and mouse events."""
