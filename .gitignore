@@ -1,1 +1,10 @@
 /.DS_Store
+django/exercises/pizzeria/pizzas/__pycache__/
+django/exercises/pizzeria/pizzas/migrations/__pycache__/
+django/exercises/pizzeria/pizzeria/__pycache__/
+django/learning_log/learning_logs/migrations/__pycache__/
+django/learning_log/learning_logs/__pycache__/
+django/learning_log/learning_log/__pycache__/
+django/exercises/meal_planner/meal_plans/__pycache__/
+django/exercises/meal_planner/meal_planner/__pycache__/
+django/exercises/meal_planner/meal_plans/migrations/__pycache__/
